@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+  return <nav>Get Ready to complete your daily goals</nav>;
+};
 
-export default Header
+export default Header;
