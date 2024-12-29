@@ -26,7 +26,7 @@ const Home = () => {
 
   useEffect(()=>{
     localStorage.setItem('tasks',JSON.stringify(tasks));
-  },[tasks])
+  },[tasks]);
     return (
     <div className='container'>
       <h1>Daily Goals</h1>

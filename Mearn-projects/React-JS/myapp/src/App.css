@@ -85,3 +85,32 @@ border-radius: 7px;
 .task button:hover{
   background-color:  red;
 }
+
+.contact{
+  background-color:gold;
+  width: 100%;
+  height: 100vh;
+}
+
+.about{
+  background-color:silver;
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  background-color: rgb(159, 116, 116);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.header > a{
+  text-decoration: none;
+  color: black;
+  margin: 25px;
+}
+
+.footer{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 300px;
+}
